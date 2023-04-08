@@ -1,0 +1,119 @@
+{
+    "name": "CoruscantRework",
+    "tree": {
+        "$className": "DataModel",
+        
+        "Lighting": {
+            "$path": "src/Lighting"
+        },
+
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "$path": "src/ServerScriptService"
+        },
+
+        "ServerStorage": {
+            "$className": "ServerStorage",
+            "$path": "src/ServerStorage"
+        },
+
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "$path": "src/ReplicatedStorage",
+            "ExternalPackages": {
+                "$path": "Packages"
+            }
+        },
+
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "$path": "src/StarterPlayerScripts"
+            },
+            "StarterCharacterScripts": {
+                "$className": "StarterCharacterScripts",
+                "$path": "src/StarterCharacterScripts"
+            },
+            "$properties": {
+                "CameraMaxZoomDistance": 50,
+                "CharacterUseJumpPower": true
+            }
+        },
+      
+        "Chat": {
+            "$className": "Chat",
+            "$path": "src/Chat",
+            "$properties": {
+                "BubbleChatEnabled": true
+            }
+        },
+
+        "MaterialService": {
+            "$className": "MaterialService",
+            "$path": "src/MaterialService",
+            "$properties": {
+                "Use2022Materials": false
+            }
+        },
+
+        "ReplicatedFirst": {
+            "$className": "ReplicatedFirst",
+            "$path": "src/ReplicatedFirst",
+            "StudioIntro": {
+                "$path": "src/ReplicatedStorage/Assets/GameUI/StudioIntro.rbxmx"
+            }
+        },
+
+        "StarterGui": {
+            "$className": "StarterGui",
+            "$properties": {
+                "VirtualCursorMode": "Enabled"
+            }
+        },
+
+        "Players": {
+            "$className": "Players",
+            "$properties": {
+                "CharacterAutoLoads": false
+            }
+        },
+
+        "HttpService": {
+            "$className": "HttpService",
+            "$properties": {
+                "HttpEnabled": true
+            }
+        },
+
+        "SoundService": {
+            "$className": "SoundService",
+            "$properties": {
+                "RespectFilteringEnabled": true
+            }
+        },
+
+        "Workspace": {
+            "$className": "Workspace",
+            "$properties": {
+                "FilteringEnabled": true,
+                "StreamingEnabled": true,
+                "SignalBehavior": "Immediate",
+                "MeshPartHeadsAndAccessories": "Enabled", 
+                "AnimationWeightedBlendFix": "Enabled",
+                "ClientAnimatorThrottling": "Enabled",
+                "InterpolationThrottling": "Enabled",
+                "PhysicsSteppingMethod": "Adaptive"
+            },
+            "$path": "src/Workspace",
+            "Terrain": {
+                "$path": "src/Terrain/Normal.rbxmx"
+            },
+            "Temp": {
+                "$className": "Folder"
+            }
+        }
+
+        
+    }
+}
