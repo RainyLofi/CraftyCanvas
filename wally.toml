@@ -1,0 +1,11 @@
+[package]
+name = "rainylofi/craftycanvas"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+GameAnalytics = "gameanalytics/gameanalytics-sdk@2.2.2"
+BridgeNet2 = "ffrostflame/bridgenet2@0.1.0"
+BridgeNet = "ffrostflame/bridgenet@2.0.0-rc4"
+t = "osyrisrblx/t@3.0.0"

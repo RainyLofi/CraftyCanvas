@@ -1,5 +1,5 @@
 {
-    "name": "CoruscantRework",
+    "name": "CraftyCanvas",
     "tree": {
         "$className": "DataModel",
         
@@ -36,8 +36,7 @@
                 "$path": "src/StarterCharacterScripts"
             },
             "$properties": {
-                "CameraMaxZoomDistance": 50,
-                "CharacterUseJumpPower": true
+                "CameraMaxZoomDistance": 0
             }
         },
       
@@ -53,7 +52,7 @@
             "$className": "MaterialService",
             "$path": "src/MaterialService",
             "$properties": {
-                "Use2022Materials": false
+                "Use2022Materials": true
             }
         },
 
@@ -106,9 +105,6 @@
                 "PhysicsSteppingMethod": "Adaptive"
             },
             "$path": "src/Workspace",
-            "Terrain": {
-                "$path": "src/Terrain/Normal.rbxmx"
-            },
             "Temp": {
                 "$className": "Folder"
             }

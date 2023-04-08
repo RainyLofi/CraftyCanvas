@@ -1,0 +1,4 @@
+std = "roblox+testez" # testez is an open source testing utility which lets you write unit tests
+
+[rules]
+multiple_statements = "allow" # Allow multiple statements on one line (if x then y() end)
